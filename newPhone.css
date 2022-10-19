@@ -1,0 +1,108 @@
+
+.head{
+    display: none;
+
+}
+#navbar{
+    display: flex;
+    border: 2px solid #001630;
+    background-color: #001630;
+    padding: 45px 34px;
+    position: relative;
+    top: -7px;
+    left: 0px;
+    width: auto;
+    margin: -1px -8px;
+    z-index: 1;
+    flex-direction: column;
+}
+#navbar ul{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font: 1rem;
+    padding: 0px 2px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 72rem;
+
+}
+#home h3 {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+/* #home::before {
+    content: "";
+    background: url(https://media.istockphoto.com/vectors/lightbulb-idea-concept-vector-illustration-cartoon-flat-tiny-man-vector-id1264379078?k=20&m=1264379078&s=612x612&w=0&h=xllGwmIkGAWwqIY944uNvqfjVwGnkQSrdlXxcrqd6FI=) no-repeat center center/cover;
+    position: absolute;
+    width: 73%;
+    height: 253px;
+    top: 79rem;
+    right: 36px;
+    z-index: 0;
+    opacity: 1;
+} */
+
+#home h3{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#home2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+#home2 img{
+    width: 22rem;
+    height: 14rem;
+}
+.form-home input{
+    width: 100%;
+}
+#options{
+    justify-content: center;
+}
+
+#degrees{
+    flex-direction: column;
+}
+.degree{
+    justify-content: unset;
+    align-items: center;
+    padding: 20px 49px;
+}
+#coar{
+    flex-direction: column;
+}
+
+#coar ul{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 13px 0px;
+    justify-content: right;
+}
+
+
+
+.cate{
+    border: 2px solid;
+    background-color: #5c6c80;
+    color: white;
+    border-radius: 10px;
+    padding: 24px 32px;
+    margin: -16px 65px;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+    background-color: linear-gradient(52deg, #5c6c80 0%, #5c6c80 70%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
